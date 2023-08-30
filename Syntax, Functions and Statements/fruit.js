@@ -3,5 +3,6 @@ function solve(fruit,weight,price ){
     const priceF= weightKg*price;
     return `I need $${priceF} to buy ${weightKg} kilograms ${fruit}`
 
+    
 }
 console.log(solve('orange',2500,1.80));
