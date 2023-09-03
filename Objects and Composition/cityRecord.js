@@ -22,6 +22,8 @@ function solve(nameCity, populationCity, tresuryCity) {
     console.log(value);
 
     const entries = Object.entries(city);
+
+    // entries == [key,value] destruktorirane  taka kato v entries imame masivi s dva elementa koito otgovarqt na key i value 
    for (const [key, value] of entries) {
         console.log(key);
         console.log(value);
