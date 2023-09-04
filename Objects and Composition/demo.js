@@ -17,7 +17,9 @@ function solve() {
         firstName: 'Peterrrr',
         lastName: ' Johnsonnnn',
     } 
+   
+    const sayHi = myObj.sayHi;
     person.sayHi = sayHi();
-    console.log(person.sayHi);
+    return person.sayHi;
 }
 console.log(solve());
