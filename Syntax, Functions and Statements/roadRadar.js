@@ -11,6 +11,7 @@ function solve(speed, area) {
         case 'residential': limit = 20;
             break;
     }
+    
     const speeding = speed - limit;
     if (speeding <= 0) {
         return `driving ${speed} km/h in a ${limit} zone`;
