@@ -14,7 +14,3 @@ function catcher() {
 catcher();
 
 catcher();
-
-catcher();
-
-catcher();
